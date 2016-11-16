@@ -1,0 +1,14 @@
+h1 {
+    color: lightsteelblue;
+    background-color: Tomato;
+    padding: 150px;
+    margin: 50px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    background-color: green
+}
