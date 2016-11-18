@@ -4,15 +4,14 @@ body {
 h1 {
     color: lightsteelblue;
     background-color: Tomato;
-    padding: 150px;
-    margin: 50px;
+    padding: 70px;
+    margin: 75px;
     text-align: center;
 }
 h3 {
     color: red;
     background-color: blueviolet;
     padding: 50px;
-    margin: 150px;
     text-align: center;
 }
 a {
@@ -23,7 +22,7 @@ a {
 
 ul {
     background-color: green;
-    border-radius: 50%;
+    border-radius: 0;
     border-width: 20px;
 }
 
@@ -32,5 +31,33 @@ li {
 }
 
 p {
-    text-align: right;
+    text-align: center;
+}
+
+div {
+    color: darkgoldenrod;
+    background-color: black;
+}
+.extreme {
+    text-align: center;
+    background-color: cornsilk;
+}
+#tehlulz {
+    font-weight: 400;
+}
+.content{
+    font-style: italic;
+}
+.prose{
+    text-align: center;
+    border: 20px solid cornflowerblue;
+}
+#head1 {
+    margin: auto;
+}
+.navzone a:hover{
+    position: absolute;
+    color: fuchsia;
+    font-style: italic;
+    font-weight: 900;
 }
