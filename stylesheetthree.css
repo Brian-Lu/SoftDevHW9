@@ -1,0 +1,59 @@
+body {
+    background-image: url("http://www.itbaloch.com/wp-content/uploads/2015/06/html-css.jpg");
+    font-weight: bolder;
+}
+h1 {
+    color: red;
+    background-color: lightcoral;
+    padding: 50px;
+    text-align: center;
+    border-radius: 100%;
+    border-width: thick;
+    animation-name: boolin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+a {
+    color: fuchsia;
+    text-align: center;
+}
+a:hover{
+    color: Tomato;
+    font-style: italic;
+}
+h3 {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+ol li {
+    color: green;
+}
+
+ul li{
+    color: coral;
+}
+
+p {
+    text-align: center;
+}
+@keyframes boolin {
+    0% {color: dimgrey}
+    25% {color: darkblue}
+    50% {color: white}
+    75% {color: lightblue}
+    100% {color: lightgray}
+}
+#intro {
+    cursor: all-scroll;
+}
+#body1{
+    cursor: crosshair;
+}
+#body2{
+    cursor: not-allowed;
+}
+#irrelevant{
+    cursor: progress;
+}
